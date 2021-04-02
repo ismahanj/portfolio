@@ -11,9 +11,11 @@ const MyTitle = styled.h1`
   text-align: center;
   strong {
     font-size: 1.25em;
+    color: white
   }
   div {
-    color: ${ (props) => props.theme.textColor};
+    color: white;
+    
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
@@ -24,7 +26,9 @@ const MyTitle = styled.h1`
       font-size: 35px;
       font-weight: 50;
       letter-spacing: 2px;
+      
     }
+    
   }`;
 const Title = () => {
     return (
@@ -41,7 +45,7 @@ const Title = () => {
                 <div className="sub">
                     <Typewriter
                     options={{
-                        strings: ["Web Developer", "Diligent", "Motivated", "Ambitious"],
+                        strings: ["Web Developer", "Diligent", "Ambitious"],
                         autoStart: true, 
                         loop: true, 
                     }}/>

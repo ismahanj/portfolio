@@ -47,8 +47,9 @@
     transform: scale(1.8);
 }
 
-.title{
+.name{
     text-align: center;
-    color:teal
+    color:teal;
+    padding:15px
  
 }

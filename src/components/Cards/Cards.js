@@ -26,7 +26,7 @@ class Cards extends Component {
         <div>
       <Container className="container-box rounded">
         <Fade duration={500}>
-        <h1 className="title">Some Projects I Worked on</h1>
+        <h1 className="name">PROJECTS I WORKED ON</h1>
             <div className="container-fluid d-flex">
                 <div className="row">
                     <div className="col-md-4">
