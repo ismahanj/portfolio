@@ -6,16 +6,15 @@ import "./Navbar.css"
 function NavBar(){
     return (
         <>
- <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+ <Navbar id="navbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Navbar.Brand href="#home">Ismahan's Portfolio</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link href="#features">Home</Nav.Link>
-      <Nav.Link href="#pricing">About</Nav.Link>
-      <Nav.Link href="#pricing">Projects</Nav.Link>
-      <Nav.Link href="#pricing">Skills</Nav.Link>
-      <Nav.Link href="#pricing">Contact</Nav.Link>
+      <Nav.Link href="#Home">Home</Nav.Link>
+      <Nav.Link href="#About">About</Nav.Link>
+      <Nav.Link href="#Cards">Projects</Nav.Link>
+      <Nav.Link href="#Footer">Contact</Nav.Link>
     </Nav>
     
   </Navbar.Collapse>

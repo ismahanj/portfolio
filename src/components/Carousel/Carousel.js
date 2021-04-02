@@ -1,7 +1,7 @@
 import React from "react"
 import Carousel from 'react-bootstrap/Carousel'
 import "./Carousel.css"
-import Image1 from "../../assets/circit.gif"
+import Image1 from "../../assets/lights.jpeg"
 
 
 

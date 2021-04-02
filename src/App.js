@@ -3,10 +3,12 @@ import NavBar from "./components/Navbar/Navbar"
 import Title from "./components/TypeText/Title"
 import Carousel from "./components/Carousel/Carousel"
 import About from "./pages/About/About"
-import { Parallax, Background } from "react-parallax"
+import { Parallax } from "react-parallax"
 import Fade from "react-reveal/Fade"
 import Container from "react-bootstrap/Container"
 import Image1 from "./assets/background.jpg"
+import Cards from "./components/Cards/Cards"
+import Footer from "./components/Footer/Footer"
 
 
 
@@ -31,7 +33,10 @@ function App() {
       </Container>
       </div>
       </Parallax>
-      </div>  
+      </div> 
+
+      <Cards />
+      <Footer />
     </div>
   );
 }

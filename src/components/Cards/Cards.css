@@ -1,0 +1,54 @@
+/* body {
+    background: radial-gradient(gray, white, gray);
+    
+} */
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-right:10px; */
+    width:20rem;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px skyblue !important;
+}
+
+.card-body{
+    padding:2rem 0 !important; 
+    
+}
+
+.card-text{
+    font-size:0.9rem; 
+    padding:0.4rem 1.9rem
+}
+
+.container-fluid.row{
+    justify-content: center;
+    padding-top: 1rem; 
+
+}
+
+/* .container-box{
+    padding-right: 2px;
+} */
+
+.overflow{
+    overflow:hidden;
+}
+
+.card-img-top{
+    transform:scale(.95); 
+    transition: transform 0.5s ease; 
+}
+
+.card-img-top:hover{
+    transform: scale(1.8);
+}
+
+.title{
+    text-align: center;
+    color:teal
+ 
+}
